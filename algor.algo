@@ -1,0 +1,32 @@
+ALGORITHM "eyes chicco"
+VAR
+    x,y,v,z: INTEGER;
+   
+BEGIN
+    x=0; //x nmbre d'espace//
+    y=0;// ynmre de lettres//
+    v=0; // nmbre de voyelle//
+
+   write ("eyes chicco")
+    read (text);
+    c=text.lenght
+    read(c) //taille du texte//
+    FOR i FROM 0 TO N STEP step  DO
+        IF (text==" ") THEN
+            x:=x+1
+        END_IF
+        y=  c - x //nmbr de lettre ss espace//
+        IF  (text=="a") || (text=="e") || (text=="u") || (text=="i") || (text=="o")  THEN
+           THEN
+           v:=v+1
+           END_IF
+           z= y - v //nmbr de lettre ss voyelle
+END_FOR
+        read(x)
+        read(y)
+        read(v)
+        read(z)
+
+    
+    
+END

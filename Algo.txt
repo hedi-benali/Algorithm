@@ -1,0 +1,22 @@
+Algorithm "eyes chicco"
+var=
+x=0 type= intiger
+y=0 type= intiger
+
+begin
+x=0
+y=0
+
+write "eyes chicco"
+read "text"
+for i from 0 to N faire
+
+if(text==" ")
+x=x+1
+
+end if 
+y=text.length-x
+
+read "x"
+read"y"
+
